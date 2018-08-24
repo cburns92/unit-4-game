@@ -17,11 +17,11 @@ $(document).ready(function(){
         $("#score").html(score);
         if(score === randomNum){
             console.log("Score equals Random Number")
-            setTimeout(winner,500);
+            setTimeout(winner,100);
         }
         else if(score > randomNum){
             console.log("Score is greater than Random Number")
-            setTimeout(loser,500);
+            setTimeout(loser,100);
         }
     })
 
@@ -30,11 +30,11 @@ $(document).ready(function(){
         $("#score").html(score);
         if(score === randomNum){
             console.log("Score equals Random Number")
-            setTimeout(winner,500);
+            setTimeout(winner,100);
         }
         else if(score > randomNum){
             console.log("Score is greater than Random Number")
-            setTimeout(loser,500);
+            setTimeout(loser,100);
         }
     })
 
@@ -43,11 +43,11 @@ $(document).ready(function(){
         $("#score").html(score);
         if(score === randomNum){
             console.log("Score equals Random Number")
-            setTimeout(winner,500);
+            setTimeout(winner,100);
         }
         else if(score > randomNum){
             console.log("Score is greater than Random Number")
-            setTimeout(loser,500);
+            setTimeout(loser,100);
         }
     })
 
@@ -56,11 +56,11 @@ $(document).ready(function(){
         $("#score").html(score);
         if(score === randomNum){
             console.log("Score equals Random Number")
-            setTimeout(winner,500);
+            setTimeout(winner,100);
         }
         else if(score > randomNum){
             console.log("Score is greater than Random Number")
-            setTimeout(loser,500);
+            setTimeout(loser,100);
         }
     })
 
